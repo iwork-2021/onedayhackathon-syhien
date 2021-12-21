@@ -26,6 +26,7 @@
 		7CA4A0AA2771BB8A004FF3E7 /* doughnut-sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A0A92771BB8A004FF3E7 /* doughnut-sample.jpg */; };
 		7CA4A0AC2771BBCD004FF3E7 /* juice-sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A0AB2771BBCD004FF3E7 /* juice-sample.jpg */; };
 		7CA4A0AE2771BBF8004FF3E7 /* orange-sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A0AD2771BBF8004FF3E7 /* orange-sample.jpg */; };
+		7CA4A0B02771BFDA004FF3E7 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A0AF2771BFDA004FF3E7 /* ImageDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		7CA4A0A92771BB8A004FF3E7 /* doughnut-sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "doughnut-sample.jpg"; sourceTree = "<group>"; };
 		7CA4A0AB2771BBCD004FF3E7 /* juice-sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "juice-sample.jpg"; sourceTree = "<group>"; };
 		7CA4A0AD2771BBF8004FF3E7 /* orange-sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "orange-sample.jpg"; sourceTree = "<group>"; };
+		7CA4A0AF2771BFDA004FF3E7 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				7CA4A07127716F30004FF3E7 /* SceneDelegate.swift */,
 				7CA4A09527718C42004FF3E7 /* AddPhotoViewController.swift */,
 				7CA4A07527716F30004FF3E7 /* Main.storyboard */,
+				7CA4A0AF2771BFDA004FF3E7 /* ImageDetailViewController.swift */,
 				7CA4A09F2771B21C004FF3E7 /* SingleCellCollectionViewCell.swift */,
 				7CA4A0A32771B2B3004FF3E7 /* SingleCollectionViewController.swift */,
 				7CA4A09D2771AD3E004FF3E7 /* DetectedTableViewController.swift */,
@@ -189,6 +192,7 @@
 				7CA4A07227716F30004FF3E7 /* SceneDelegate.swift in Sources */,
 				7CA4A09027717C22004FF3E7 /* CollectionViewCell.swift in Sources */,
 				7CA4A0A02771B21C004FF3E7 /* SingleCellCollectionViewCell.swift in Sources */,
+				7CA4A0B02771BFDA004FF3E7 /* ImageDetailViewController.swift in Sources */,
 				7CA4A0922771868E004FF3E7 /* Photos.swift in Sources */,
 				7CA4A0862771792D004FF3E7 /* ViewAllCollectionViewController.swift in Sources */,
 				7CA4A09C2771ACED004FF3E7 /* ClassTableViewCell.swift in Sources */,

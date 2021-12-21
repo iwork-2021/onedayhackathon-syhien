@@ -118,6 +118,7 @@
                                 </collectionViewCellContentView>
                                 <connections>
                                     <outlet property="imageView" destination="1eq-2H-iZP" id="q3v-C8-RL3"/>
+                                    <segue destination="Xfk-Wg-neZ" kind="show" id="3bx-5N-5Yc"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -162,6 +163,7 @@
                                 </collectionViewCellContentView>
                                 <connections>
                                     <outlet property="imageView" destination="TvC-HX-UOQ" id="Ktf-Zb-JNm"/>
+                                    <segue destination="Xfk-Wg-neZ" kind="show" id="zeg-Ud-Keh"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -175,6 +177,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pNf-DA-Dlb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-322" y="-433"/>
+        </scene>
+        <!--Image Detail View Controller-->
+        <scene sceneID="dzK-WA-J4X">
+            <objects>
+                <viewController id="Xfk-Wg-neZ" customClass="ImageDetailViewController" customModule="oneday_syhien" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7PY-He-3Nk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KfS-lL-StO">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3Qk-3F-8D4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KfS-lL-StO" firstAttribute="leading" secondItem="3Qk-3F-8D4" secondAttribute="leading" id="52D-mC-g02"/>
+                            <constraint firstItem="3Qk-3F-8D4" firstAttribute="bottom" secondItem="KfS-lL-StO" secondAttribute="bottom" id="Q5O-Vm-Pm4"/>
+                            <constraint firstItem="3Qk-3F-8D4" firstAttribute="trailing" secondItem="KfS-lL-StO" secondAttribute="trailing" id="rjH-iU-aqb"/>
+                            <constraint firstItem="KfS-lL-StO" firstAttribute="top" secondItem="3Qk-3F-8D4" secondAttribute="top" id="xV6-gI-91v"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9pq-ev-6On"/>
+                    <connections>
+                        <outlet property="imageView" destination="KfS-lL-StO" id="iHi-OK-XHG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xQM-08-HLY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="615" y="-436"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="7K7-vN-wVf">
@@ -196,6 +228,9 @@
             <point key="canvasLocation" x="-1211" y="-130"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="3bx-5N-5Yc"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="eye.fill" catalog="system" width="128" height="78"/>
         <image name="photo.on.rectangle.fill" catalog="system" width="128" height="97"/>
