@@ -19,6 +19,7 @@
 		7CA4A09027717C22004FF3E7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A08F27717C22004FF3E7 /* CollectionViewCell.swift */; };
 		7CA4A0922771868E004FF3E7 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A0912771868E004FF3E7 /* Photos.swift */; };
 		7CA4A09627718C42004FF3E7 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A09527718C42004FF3E7 /* AddPhotoViewController.swift */; };
+		7CA4A0982771A167004FF3E7 /* snacks.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A0972771A167004FF3E7 /* snacks.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		7CA4A08F27717C22004FF3E7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		7CA4A0912771868E004FF3E7 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		7CA4A09527718C42004FF3E7 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		7CA4A0972771A167004FF3E7 /* snacks.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = snacks.mlmodel; path = ../../snacks.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				7CA4A0852771792D004FF3E7 /* ViewAllCollectionViewController.swift */,
 				7CA4A0912771868E004FF3E7 /* Photos.swift */,
 				7CA4A08F27717C22004FF3E7 /* CollectionViewCell.swift */,
+				7CA4A0972771A167004FF3E7 /* snacks.mlmodel */,
 				7CA4A08B27717BE7004FF3E7 /* 0.jpg */,
 				7CA4A08A27717BE7004FF3E7 /* 1.jpg */,
 				7CA4A08927717BE7004FF3E7 /* 2.jpg */,
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA4A07027716F30004FF3E7 /* AppDelegate.swift in Sources */,
+				7CA4A0982771A167004FF3E7 /* snacks.mlmodel in Sources */,
 				7CA4A09627718C42004FF3E7 /* AddPhotoViewController.swift in Sources */,
 				7CA4A07227716F30004FF3E7 /* SceneDelegate.swift in Sources */,
 				7CA4A09027717C22004FF3E7 /* CollectionViewCell.swift in Sources */,
