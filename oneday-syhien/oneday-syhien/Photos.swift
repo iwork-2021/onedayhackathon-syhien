@@ -35,10 +35,16 @@ class Photos: NSObject {
     var imageToDetected: UIImage = UIImage()
     
     override init() {
-        imageViews.append(UIImage(named: "0.jpg")!)
-        imageViews.append(UIImage(named: "1.jpg")!)
-        imageViews.append(UIImage(named: "2.jpg")!)
-        snacksViews["apple"]?.append(contentsOf: [UIImage(named: "0.jpg")!, UIImage(named: "1.jpg")!, UIImage(named: "2.jpg")!])
+        imageViews.append(UIImage(named: "banana-sample.jpg")!)
+        snacksViews["banana"]?.append(UIImage(named: "banana-sample.jpg")!)
+        imageViews.append(UIImage(named: "cake-sample.jpg")!)
+        snacksViews["cake"]?.append(UIImage(named: "cake-sample.jpg")!)
+        imageViews.append(UIImage(named: "doughnut-sample.jpg")!)
+        snacksViews["doughnut"]?.append(UIImage(named: "doughnut-sample.jpg")!)
+        imageViews.append(UIImage(named: "juice-sample.jpg")!)
+        snacksViews["juice"]?.append(UIImage(named: "juice-sample.jpg")!)
+        imageViews.append(UIImage(named: "orange-sample.jpg")!)
+        snacksViews["orange"]?.append(UIImage(named: "orange-sample.jpg")!)
     }
     
     func getNumbers() -> Int {
@@ -52,7 +58,7 @@ class Photos: NSObject {
         }
         imageToDetected = newImage
         classify(image: imageToDetected)
-        print(imageViews.count)
+//        print(imageViews.count)
     }
     
     func classify(image: UIImage) {

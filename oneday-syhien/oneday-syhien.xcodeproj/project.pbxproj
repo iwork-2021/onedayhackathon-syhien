@@ -13,9 +13,6 @@
 		7CA4A07927716F32004FF3E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A07827716F32004FF3E7 /* Assets.xcassets */; };
 		7CA4A07C27716F32004FF3E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A07A27716F32004FF3E7 /* LaunchScreen.storyboard */; };
 		7CA4A0862771792D004FF3E7 /* ViewAllCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A0852771792D004FF3E7 /* ViewAllCollectionViewController.swift */; };
-		7CA4A08C27717BE7004FF3E7 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A08927717BE7004FF3E7 /* 2.jpg */; };
-		7CA4A08D27717BE7004FF3E7 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A08A27717BE7004FF3E7 /* 1.jpg */; };
-		7CA4A08E27717BE7004FF3E7 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A08B27717BE7004FF3E7 /* 0.jpg */; };
 		7CA4A09027717C22004FF3E7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A08F27717C22004FF3E7 /* CollectionViewCell.swift */; };
 		7CA4A0922771868E004FF3E7 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A0912771868E004FF3E7 /* Photos.swift */; };
 		7CA4A09627718C42004FF3E7 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A09527718C42004FF3E7 /* AddPhotoViewController.swift */; };
@@ -24,6 +21,11 @@
 		7CA4A09E2771AD3E004FF3E7 /* DetectedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A09D2771AD3E004FF3E7 /* DetectedTableViewController.swift */; };
 		7CA4A0A02771B21C004FF3E7 /* SingleCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A09F2771B21C004FF3E7 /* SingleCellCollectionViewCell.swift */; };
 		7CA4A0A42771B2B3004FF3E7 /* SingleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A0A32771B2B3004FF3E7 /* SingleCollectionViewController.swift */; };
+		7CA4A0A62771BB4B004FF3E7 /* banana-sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A0A52771BB4B004FF3E7 /* banana-sample.jpg */; };
+		7CA4A0A82771BB6B004FF3E7 /* cake-sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A0A72771BB6B004FF3E7 /* cake-sample.jpg */; };
+		7CA4A0AA2771BB8A004FF3E7 /* doughnut-sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A0A92771BB8A004FF3E7 /* doughnut-sample.jpg */; };
+		7CA4A0AC2771BBCD004FF3E7 /* juice-sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A0AB2771BBCD004FF3E7 /* juice-sample.jpg */; };
+		7CA4A0AE2771BBF8004FF3E7 /* orange-sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A0AD2771BBF8004FF3E7 /* orange-sample.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,9 +37,6 @@
 		7CA4A07B27716F32004FF3E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CA4A07D27716F32004FF3E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CA4A0852771792D004FF3E7 /* ViewAllCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllCollectionViewController.swift; sourceTree = "<group>"; };
-		7CA4A08927717BE7004FF3E7 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
-		7CA4A08A27717BE7004FF3E7 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		7CA4A08B27717BE7004FF3E7 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
 		7CA4A08F27717C22004FF3E7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		7CA4A0912771868E004FF3E7 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		7CA4A09527718C42004FF3E7 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +45,11 @@
 		7CA4A09D2771AD3E004FF3E7 /* DetectedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedTableViewController.swift; sourceTree = "<group>"; };
 		7CA4A09F2771B21C004FF3E7 /* SingleCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		7CA4A0A32771B2B3004FF3E7 /* SingleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCollectionViewController.swift; sourceTree = "<group>"; };
+		7CA4A0A52771BB4B004FF3E7 /* banana-sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "banana-sample.jpg"; sourceTree = "<group>"; };
+		7CA4A0A72771BB6B004FF3E7 /* cake-sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cake-sample.jpg"; sourceTree = "<group>"; };
+		7CA4A0A92771BB8A004FF3E7 /* doughnut-sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "doughnut-sample.jpg"; sourceTree = "<group>"; };
+		7CA4A0AB2771BBCD004FF3E7 /* juice-sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "juice-sample.jpg"; sourceTree = "<group>"; };
+		7CA4A0AD2771BBF8004FF3E7 /* orange-sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "orange-sample.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +94,14 @@
 				7CA4A0912771868E004FF3E7 /* Photos.swift */,
 				7CA4A08F27717C22004FF3E7 /* CollectionViewCell.swift */,
 				7CA4A0972771A167004FF3E7 /* snacks.mlmodel */,
-				7CA4A08B27717BE7004FF3E7 /* 0.jpg */,
-				7CA4A08A27717BE7004FF3E7 /* 1.jpg */,
-				7CA4A08927717BE7004FF3E7 /* 2.jpg */,
 				7CA4A07827716F32004FF3E7 /* Assets.xcassets */,
 				7CA4A07A27716F32004FF3E7 /* LaunchScreen.storyboard */,
 				7CA4A07D27716F32004FF3E7 /* Info.plist */,
+				7CA4A0A52771BB4B004FF3E7 /* banana-sample.jpg */,
+				7CA4A0A72771BB6B004FF3E7 /* cake-sample.jpg */,
+				7CA4A0A92771BB8A004FF3E7 /* doughnut-sample.jpg */,
+				7CA4A0AB2771BBCD004FF3E7 /* juice-sample.jpg */,
+				7CA4A0AD2771BBF8004FF3E7 /* orange-sample.jpg */,
 			);
 			path = "oneday-syhien";
 			sourceTree = "<group>";
@@ -159,11 +165,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA4A07C27716F32004FF3E7 /* LaunchScreen.storyboard in Resources */,
+				7CA4A0AC2771BBCD004FF3E7 /* juice-sample.jpg in Resources */,
 				7CA4A07927716F32004FF3E7 /* Assets.xcassets in Resources */,
-				7CA4A08C27717BE7004FF3E7 /* 2.jpg in Resources */,
+				7CA4A0AE2771BBF8004FF3E7 /* orange-sample.jpg in Resources */,
+				7CA4A0A82771BB6B004FF3E7 /* cake-sample.jpg in Resources */,
+				7CA4A0A62771BB4B004FF3E7 /* banana-sample.jpg in Resources */,
 				7CA4A07727716F30004FF3E7 /* Main.storyboard in Resources */,
-				7CA4A08D27717BE7004FF3E7 /* 1.jpg in Resources */,
-				7CA4A08E27717BE7004FF3E7 /* 0.jpg in Resources */,
+				7CA4A0AA2771BB8A004FF3E7 /* doughnut-sample.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
