@@ -9,7 +9,7 @@ import UIKit
 
 class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
-    
+    var photos: Photos?
     let photoPicker = UIImagePickerController()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,6 +17,9 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
         // Do any additional setup after loading the view.
         photoPicker.delegate = self
         photoPicker.sourceType = .photoLibrary
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        photos = appDelegate.photos!
     }
     
 
@@ -28,7 +31,7 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
-            //add
+            photos?.addImage(newImage: pickedImage)
         }
         dismiss(animated: true, completion: nil)
     }

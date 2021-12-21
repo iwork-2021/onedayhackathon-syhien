@@ -24,6 +24,7 @@ class ViewAllCollectionViewController: UICollectionViewController {
         // Do any additional setup after loading the view.
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         photos = appDelegate.photos!
+        photos?.viewAllController = self
     }
 
     /*
@@ -53,8 +54,8 @@ class ViewAllCollectionViewController: UICollectionViewController {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! CollectionViewCell
         
         // Configure the cell
-        print(indexPath.item)
-        print("\(indexPath.item).jpg")
+//        print(indexPath.item)
+//        print("\(indexPath.item).jpg")
         cell.imageView.image = photos!.imageViews[indexPath.item]
         
         return cell
