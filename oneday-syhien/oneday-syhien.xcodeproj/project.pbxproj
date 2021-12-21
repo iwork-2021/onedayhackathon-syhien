@@ -20,6 +20,8 @@
 		7CA4A0922771868E004FF3E7 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A0912771868E004FF3E7 /* Photos.swift */; };
 		7CA4A09627718C42004FF3E7 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A09527718C42004FF3E7 /* AddPhotoViewController.swift */; };
 		7CA4A0982771A167004FF3E7 /* snacks.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A0972771A167004FF3E7 /* snacks.mlmodel */; };
+		7CA4A09C2771ACED004FF3E7 /* ClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A09B2771ACED004FF3E7 /* ClassTableViewCell.swift */; };
+		7CA4A09E2771AD3E004FF3E7 /* DetectedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A09D2771AD3E004FF3E7 /* DetectedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		7CA4A0912771868E004FF3E7 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		7CA4A09527718C42004FF3E7 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 		7CA4A0972771A167004FF3E7 /* snacks.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = snacks.mlmodel; path = ../../snacks.mlmodel; sourceTree = "<group>"; };
+		7CA4A09B2771ACED004FF3E7 /* ClassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTableViewCell.swift; sourceTree = "<group>"; };
+		7CA4A09D2771AD3E004FF3E7 /* DetectedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				7CA4A07127716F30004FF3E7 /* SceneDelegate.swift */,
 				7CA4A09527718C42004FF3E7 /* AddPhotoViewController.swift */,
 				7CA4A07527716F30004FF3E7 /* Main.storyboard */,
+				7CA4A09D2771AD3E004FF3E7 /* DetectedTableViewController.swift */,
+				7CA4A09B2771ACED004FF3E7 /* ClassTableViewCell.swift */,
 				7CA4A0852771792D004FF3E7 /* ViewAllCollectionViewController.swift */,
 				7CA4A0912771868E004FF3E7 /* Photos.swift */,
 				7CA4A08F27717C22004FF3E7 /* CollectionViewCell.swift */,
@@ -163,12 +169,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA4A07027716F30004FF3E7 /* AppDelegate.swift in Sources */,
+				7CA4A09E2771AD3E004FF3E7 /* DetectedTableViewController.swift in Sources */,
 				7CA4A0982771A167004FF3E7 /* snacks.mlmodel in Sources */,
 				7CA4A09627718C42004FF3E7 /* AddPhotoViewController.swift in Sources */,
 				7CA4A07227716F30004FF3E7 /* SceneDelegate.swift in Sources */,
 				7CA4A09027717C22004FF3E7 /* CollectionViewCell.swift in Sources */,
 				7CA4A0922771868E004FF3E7 /* Photos.swift in Sources */,
 				7CA4A0862771792D004FF3E7 /* ViewAllCollectionViewController.swift in Sources */,
+				7CA4A09C2771ACED004FF3E7 /* ClassTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

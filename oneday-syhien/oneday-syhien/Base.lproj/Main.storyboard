@@ -41,21 +41,51 @@
             </objects>
             <point key="canvasLocation" x="-1064" y="551"/>
         </scene>
-        <!--分类识别-->
-        <scene sceneID="o1C-PM-2XP">
+        <!--识别分类-->
+        <scene sceneID="TDz-4q-WG0">
             <objects>
-                <viewController id="vB8-xx-R2c" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="yLp-os-LNy">
+                <tableViewController id="U8y-Ty-xqX" customClass="DetectedTableViewController" customModule="oneday_syhien" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="RtC-SZ-FMi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="qtb-rZ-tgY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="分类识别" image="eye.fill" catalog="system" id="slS-8n-F1N"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fXi-ww-6Uc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableViewCell" id="fYq-d8-jEk" customClass="ClassTableViewCell" customModule="oneday_syhien" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fYq-d8-jEk" id="Fg9-AB-HfT">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYu-gI-tLz">
+                                            <rect key="frame" x="20" y="11.5" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="qYu-gI-tLz" firstAttribute="leading" secondItem="Fg9-AB-HfT" secondAttribute="leading" constant="20" id="C2E-fg-Y8h"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <constraints>
+                                    <constraint firstItem="qYu-gI-tLz" firstAttribute="centerY" secondItem="fYq-d8-jEk" secondAttribute="centerY" id="ukr-GL-JMI"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="label" destination="qYu-gI-tLz" id="n92-ju-aTp"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="U8y-Ty-xqX" id="k6i-jC-bub"/>
+                            <outlet property="delegate" destination="U8y-Ty-xqX" id="2Ro-Za-7Ue"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="识别分类" image="eye.fill" catalog="system" id="sHj-JC-AN3"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QuQ-Br-Hv7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-321" y="174"/>
+            <point key="canvasLocation" x="-180" y="233"/>
         </scene>
         <!--ViewAll-->
         <scene sceneID="x72-Y7-7G9">
@@ -112,8 +142,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="JjN-Y2-gpp" kind="relationship" relationship="viewControllers" id="sZt-zD-pzl"/>
-                        <segue destination="vB8-xx-R2c" kind="relationship" relationship="viewControllers" id="l3t-dr-DnW"/>
                         <segue destination="tml-T6-Y2Y" kind="relationship" relationship="viewControllers" id="Yt9-ZT-PNY"/>
+                        <segue destination="U8y-Ty-xqX" kind="relationship" relationship="viewControllers" id="215-0D-C83"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ilD-y2-xwb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
