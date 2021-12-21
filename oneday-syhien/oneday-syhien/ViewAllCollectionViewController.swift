@@ -11,6 +11,7 @@ private let reuseIdentifier = "PhotoCell"
 
 class ViewAllCollectionViewController: UICollectionViewController {
 
+    var allPhotos: Photos?
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +22,7 @@ class ViewAllCollectionViewController: UICollectionViewController {
 //        self.collectionView!.register(CollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
         // Do any additional setup after loading the view.
+        allPhotos = Photos()
     }
 
     /*
@@ -43,7 +45,7 @@ class ViewAllCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 3
+        return allPhotos!.getNumbers()
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -52,7 +54,7 @@ class ViewAllCollectionViewController: UICollectionViewController {
         // Configure the cell
         print(indexPath.item)
         print("\(indexPath.item).jpg")
-        cell.imageView.image = UIImage(named: "\(indexPath.item).jpg")
+        cell.imageView.image = allPhotos!.imageViews[indexPath.item]
         
         return cell
     }

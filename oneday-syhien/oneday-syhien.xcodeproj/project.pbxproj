@@ -17,6 +17,7 @@
 		7CA4A08D27717BE7004FF3E7 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A08A27717BE7004FF3E7 /* 1.jpg */; };
 		7CA4A08E27717BE7004FF3E7 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4A08B27717BE7004FF3E7 /* 0.jpg */; };
 		7CA4A09027717C22004FF3E7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A08F27717C22004FF3E7 /* CollectionViewCell.swift */; };
+		7CA4A0922771868E004FF3E7 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4A0912771868E004FF3E7 /* Photos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7CA4A08A27717BE7004FF3E7 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		7CA4A08B27717BE7004FF3E7 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
 		7CA4A08F27717C22004FF3E7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7CA4A0912771868E004FF3E7 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				7CA4A07127716F30004FF3E7 /* SceneDelegate.swift */,
 				7CA4A07527716F30004FF3E7 /* Main.storyboard */,
 				7CA4A0852771792D004FF3E7 /* ViewAllCollectionViewController.swift */,
+				7CA4A0912771868E004FF3E7 /* Photos.swift */,
 				7CA4A08F27717C22004FF3E7 /* CollectionViewCell.swift */,
 				7CA4A08B27717BE7004FF3E7 /* 0.jpg */,
 				7CA4A08A27717BE7004FF3E7 /* 1.jpg */,
@@ -156,6 +159,7 @@
 				7CA4A07027716F30004FF3E7 /* AppDelegate.swift in Sources */,
 				7CA4A07227716F30004FF3E7 /* SceneDelegate.swift in Sources */,
 				7CA4A09027717C22004FF3E7 /* CollectionViewCell.swift in Sources */,
+				7CA4A0922771868E004FF3E7 /* Photos.swift in Sources */,
 				7CA4A0862771792D004FF3E7 /* ViewAllCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
